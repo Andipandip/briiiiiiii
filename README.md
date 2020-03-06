@@ -1,52 +1,16 @@
-# briiiiiiii
-smsbking
-<?php
+# Link ZecClickBot Telegram
+Hargai Refferal : https://t.me/BitcoinClick_bot?start=Q2tI
 
-/*Color*/
-$green = "\033[92m";
-$red = "\033[91m";
-$cyan = "\033[36m";
-$yellow = "\033[93m";
-$bold = "\033[5m";
-$white = "\033[0m";
-/*Form*/
-$date   = date('d-M-Y H:i');
-//system("clear");
-echo $red . "
-___ ____ _____    ____              _
-|_ _/ ___|_   _|  / ___|__ _ _ __ __| |
- | | |     | |   | |   / _` | '__/ _` |
- | | |___  | |   | |__| (_| | | | (_| 
-|___\____| |_|    \____\__,_|_|  \__,_|
+# Cara Install 
+$ pkg update && pkg upgrade<br>
+$ pkg install python git unzip<br>
+$ git clone https://github.com/kyuoko/btcclickbot<br>
+$ cd btcclickbot<br>
+$ unzip btcklikbot.zip<br>
+$ pip install -r requirements.txt<br>
+$ python main.py phone_number<br>
 
-";
-echo $blue . "==================================";
-echo $bold . $green . "\nCoder   : php.Script Code
-Team    : PasirGintungBukanEmpangTeam
-Code    : PHP
-Version : 8.9.8.0
-Note: 
-Yang Kaya Wajib berbagi dengan yang Miskin..!! \n";
-echo $bold . $green . "DMYH    : $date\n";
-echo $blue . "==================================\n";
-echo $bold . $red . "Count      : "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.4) Gecko/20100101 Firefox/4.0";
-$count = trim(fgets(STDIN,1024));
-echo $bold . $white . "Delay      : "JSESSIONID=7F0B30A976393B4492F2F99097904977.liferay2; COOKIE_SUPPORT=true; BIGipServerpool_bri.co.id_new=963121836.47873.0000; _ga=GA1.3.1584158838.1583437584; _gid=GA1.3.1524813014.1583437584; _fbp=fb.2.1583438050041.927397328; GUEST_LANGUAGE_ID=en_US; TS01ae856c=011434184636bc646b7c5db213ad141b9f1cf2ebe2d9b7c1ea7f2e8b3f957ae294d7b8d365756574095485575646b097fa00e6516f427dda00e3e9103268f85d4fdc187edb5040c1867e1b76fd0a2437caecf83eb90c43640aeffe16ea00575bb81c2144f3; LFR_SESSION_STATE_20105=1583438507723
-";
-$sleep = trim(fgets(STDIN,1024));
-for($x = 0; $x < $count; $x++){BIGipServerpool_bri.co.id_new=963121836.47873.0000";
-$str = file_get_contents("http://bri.co.id/Credit-Card)";
-$var = '/<div class="col2">credit-card<\/div>/s';
-preg_match_all($var, $str, $matches);"_gid=GA1.3.1524813014.1583437584";
-echo $red . "\n $$$$$$$$$$$$$$$ MORE INFORMATION $$$$$$$$$$$$$$$\n";
-echo $bold . $cyan . "[name : ".str_replace("</span>", "", str_replace('<span class="name">', "", $matches[1][3]))."]".
-		" [address : ".$matches[1][8]."]".
-		" [phone : ".$matches[1][9]."]\n";
-echo $red . "\n $$$$$$$$$$$$$$$ CARD INFORMATION $$$$$$$$$$$$$$$\n";
-echo $bold . $Yellow . "[email : ".$matches[1][10]."]".
-		" [card number : ".str_replace(" ", "", $matches[1][14])."]".
-		" [cvv : ".$matches[1][16]."]".
-		" [exp-date : ".$matches[1][15]."]\n";
-	sleep($sleep)"GUEST_LANGUAGE_ID=en_US; LFR_SESSION_STATE_20105=1583438507723; TS01ae856c=01143418466188b22881c1dbdcfc531568bd44dc94439fc3ca8ceef26b8687bda56e69d4b240f89580d5c35ec761ed184c6f56237d5974192955b9025b2c4def920a2aa017e26e4c384b5c98a68622c24fdd6b57c0cbfdb56bf5352314b6d629d9cc431a76";
-}
-?>
+# Note :
+- Bisa Menggunakan Nomor Luar/ID, Syarat Input Nomor : python main.py 62813****** / python main.py 1315*******
+- Input OTP
+- And Happy Mining
